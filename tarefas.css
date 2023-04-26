@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-color:rgb(36, 99, 233) ;
+    font-family: 'Lobster', cursive;
 }
 
 .fundo{
@@ -13,11 +14,34 @@ body{
 
 .dentro{
     background-color: white;
-    width: 280px;
-    height: 197px;
+    width: 310px;
+    height: 220px;
     margin-left: 518px;
     margin-top: -262px;
     border-radius: 15px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
 }
+
+.linhaReta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.escrevaTarefa{
+    height: 35px;
+    margin-top: 2px;
+}
+
+.inserir{
+background-color: rgb(2, 190, 2);
+width: 65px;
+height: 38px;
+border-style: hidden;
+border-radius: 3px;
+margin-left: 10px;
+font-size: 10px;
+}
+
