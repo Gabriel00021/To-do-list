@@ -5,5 +5,6 @@ const aparece = document.getElementById("aparece")
 function result(){
     let resultado = tarefa.value
     console.log(resultado)
-    resultado
+    aparece.innerHTML+= '<li>' + resultado + '</li>' 
 }
+

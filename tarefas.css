@@ -1,26 +1,28 @@
-body{
+*{
     padding: 0;
     margin: 0;
-    background-color:rgb(36, 99, 233) ;
     font-family: 'Lobster', cursive;
 }
 
 .fundo{
-    width: 474px;
-    height: 347px;
-    margin-left: 410px;
-    margin-top: 100px;
+    background-color:rgb(36, 99, 233) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .dentro{
     background-color: white;
-    width: 310px;
-    height: 220px;
-    margin-left: 518px;
-    margin-top: -262px;
+    width: 400px;
+    height:auto;
     border-radius: 15px;
-    text-align: center;
     font-size: 18px;
+
+}
+
+h1{
+    text-align: center;
 }
 
 .linhaReta{
@@ -45,3 +47,6 @@ margin-left: 10px;
 font-size: 10px;
 }
 
+#aparece{
+    margin-left: 20px;
+}
